@@ -88,7 +88,7 @@ export default function PaginaInicial() {
               <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                 {appConfig.name}
               </Text>
-              // Pode dar nome à function abaixo ex.: handle
+              
               {/* <input 
               type="text"
               value={username}
