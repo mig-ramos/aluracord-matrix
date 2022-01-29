@@ -74,7 +74,7 @@ export default function PaginaInicial() {
               as="form"
               onSubmit={function(infosDoEvento){
                 infosDoEvento.preventDefault();
-                console.log('Alguem submeteu o form')
+               // console.log('Alguem submeteu o form')
                 //window.location.href = '/chat';  // Fica dando refresh na tela
                 roteamento.push('/chat');
 
